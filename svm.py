@@ -117,5 +117,5 @@ for i, clf in enumerate(( rbf_svc_final,poly_svc_final )):
 plt.show()
 
 print "Max Accuracy (Polynomial) = ", poly_max_accuracy, " C = ",poly_c," D = ",poly_d
-print "Max Accuracy (RBF) = ", rbf_max_accuracy, " C = ",rbf_c," D = ",rbf_d
+print "Max Accuracy (RBF) = ", rbf_max_accuracy, " C = ",rbf_c," Sigma = ",rbf_d
 
